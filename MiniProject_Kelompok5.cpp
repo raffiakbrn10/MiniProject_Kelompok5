@@ -100,7 +100,7 @@ int main() {
             cout << "\n+===========================================+\n";
             cout << "|            REKAP PESERTA LOMBA            |\n";
             cout << "+-------------------------------------------+\n";
-            cout << "| Anak-anak       : " << setw(23) << left << total << " |\n";
+            cout << "| Anak-anak       : " << setw(23) << left << anak << " |\n";
             cout << "| Remaja          : " << setw(23) << left << remaja << " |\n";
             cout << "| Dewasa          : " << setw(23) << left << dewasa << " |\n";
             cout << "| Total Peserta   : " << setw(23) << left << total << " |\n";
@@ -121,4 +121,5 @@ int main() {
         
     }
     return 0;
+
 }
